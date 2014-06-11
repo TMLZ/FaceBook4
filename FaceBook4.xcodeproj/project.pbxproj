@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2578D1719480A47002B3648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2578D1619480A47002B3648 /* Foundation.framework */; };
+		A2578D1919480A47002B3648 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2578D1819480A47002B3648 /* CoreGraphics.framework */; };
+		A2578D1B19480A47002B3648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2578D1A19480A47002B3648 /* UIKit.framework */; };
+		A2578D2119480A47002B3648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2578D1F19480A47002B3648 /* InfoPlist.strings */; };
+		A2578D2319480A47002B3648 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2578D2219480A47002B3648 /* main.m */; };
+		A2578D2719480A47002B3648 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2578D2619480A47002B3648 /* AppDelegate.m */; };
+		A2578D2919480A47002B3648 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2578D2819480A47002B3648 /* Images.xcassets */; };
+		A2578D3019480A47002B3648 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2578D2F19480A47002B3648 /* XCTest.framework */; };
+		A2578D3119480A47002B3648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2578D1619480A47002B3648 /* Foundation.framework */; };
+		A2578D3219480A47002B3648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2578D1A19480A47002B3648 /* UIKit.framework */; };
+		A2578D3A19480A47002B3648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2578D3819480A47002B3648 /* InfoPlist.strings */; };
+		A2578D3C19480A47002B3648 /* FaceBook4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2578D3B19480A47002B3648 /* FaceBook4Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2578D3319480A47002B3648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2578D0B19480A47002B3648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2578D1219480A47002B3648;
+			remoteInfo = FaceBook4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2578D1319480A47002B3648 /* FaceBook4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBook4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2578D1619480A47002B3648 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2578D1819480A47002B3648 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2578D1A19480A47002B3648 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2578D1E19480A47002B3648 /* FaceBook4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceBook4-Info.plist"; sourceTree = "<group>"; };
+		A2578D2019480A47002B3648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2578D2219480A47002B3648 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2578D2419480A47002B3648 /* FaceBook4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceBook4-Prefix.pch"; sourceTree = "<group>"; };
+		A2578D2519480A47002B3648 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2578D2619480A47002B3648 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2578D2819480A47002B3648 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2578D2E19480A47002B3648 /* FaceBook4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBook4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2578D2F19480A47002B3648 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A2578D3719480A47002B3648 /* FaceBook4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceBook4Tests-Info.plist"; sourceTree = "<group>"; };
+		A2578D3919480A47002B3648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2578D3B19480A47002B3648 /* FaceBook4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBook4Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2578D1019480A47002B3648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2578D1919480A47002B3648 /* CoreGraphics.framework in Frameworks */,
+				A2578D1B19480A47002B3648 /* UIKit.framework in Frameworks */,
+				A2578D1719480A47002B3648 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2578D2B19480A47002B3648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2578D3019480A47002B3648 /* XCTest.framework in Frameworks */,
+				A2578D3219480A47002B3648 /* UIKit.framework in Frameworks */,
+				A2578D3119480A47002B3648 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2578D0A19480A47002B3648 = {
+			isa = PBXGroup;
+			children = (
+				A2578D1C19480A47002B3648 /* FaceBook4 */,
+				A2578D3519480A47002B3648 /* FaceBook4Tests */,
+				A2578D1519480A47002B3648 /* Frameworks */,
+				A2578D1419480A47002B3648 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2578D1419480A47002B3648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2578D1319480A47002B3648 /* FaceBook4.app */,
+				A2578D2E19480A47002B3648 /* FaceBook4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2578D1519480A47002B3648 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2578D1619480A47002B3648 /* Foundation.framework */,
+				A2578D1819480A47002B3648 /* CoreGraphics.framework */,
+				A2578D1A19480A47002B3648 /* UIKit.framework */,
+				A2578D2F19480A47002B3648 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2578D1C19480A47002B3648 /* FaceBook4 */ = {
+			isa = PBXGroup;
+			children = (
+				A2578D2519480A47002B3648 /* AppDelegate.h */,
+				A2578D2619480A47002B3648 /* AppDelegate.m */,
+				A2578D2819480A47002B3648 /* Images.xcassets */,
+				A2578D1D19480A47002B3648 /* Supporting Files */,
+			);
+			path = FaceBook4;
+			sourceTree = "<group>";
+		};
+		A2578D1D19480A47002B3648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2578D1E19480A47002B3648 /* FaceBook4-Info.plist */,
+				A2578D1F19480A47002B3648 /* InfoPlist.strings */,
+				A2578D2219480A47002B3648 /* main.m */,
+				A2578D2419480A47002B3648 /* FaceBook4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2578D3519480A47002B3648 /* FaceBook4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A2578D3B19480A47002B3648 /* FaceBook4Tests.m */,
+				A2578D3619480A47002B3648 /* Supporting Files */,
+			);
+			path = FaceBook4Tests;
+			sourceTree = "<group>";
+		};
+		A2578D3619480A47002B3648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2578D3719480A47002B3648 /* FaceBook4Tests-Info.plist */,
+				A2578D3819480A47002B3648 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2578D1219480A47002B3648 /* FaceBook4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2578D3F19480A47002B3648 /* Build configuration list for PBXNativeTarget "FaceBook4" */;
+			buildPhases = (
+				A2578D0F19480A47002B3648 /* Sources */,
+				A2578D1019480A47002B3648 /* Frameworks */,
+				A2578D1119480A47002B3648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceBook4;
+			productName = FaceBook4;
+			productReference = A2578D1319480A47002B3648 /* FaceBook4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2578D2D19480A47002B3648 /* FaceBook4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2578D4219480A47002B3648 /* Build configuration list for PBXNativeTarget "FaceBook4Tests" */;
+			buildPhases = (
+				A2578D2A19480A47002B3648 /* Sources */,
+				A2578D2B19480A47002B3648 /* Frameworks */,
+				A2578D2C19480A47002B3648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2578D3419480A47002B3648 /* PBXTargetDependency */,
+			);
+			name = FaceBook4Tests;
+			productName = FaceBook4Tests;
+			productReference = A2578D2E19480A47002B3648 /* FaceBook4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2578D0B19480A47002B3648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tyler Miller";
+				TargetAttributes = {
+					A2578D2D19480A47002B3648 = {
+						TestTargetID = A2578D1219480A47002B3648;
+					};
+				};
+			};
+			buildConfigurationList = A2578D0E19480A47002B3648 /* Build configuration list for PBXProject "FaceBook4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2578D0A19480A47002B3648;
+			productRefGroup = A2578D1419480A47002B3648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2578D1219480A47002B3648 /* FaceBook4 */,
+				A2578D2D19480A47002B3648 /* FaceBook4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2578D1119480A47002B3648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2578D2119480A47002B3648 /* InfoPlist.strings in Resources */,
+				A2578D2919480A47002B3648 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2578D2C19480A47002B3648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2578D3A19480A47002B3648 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2578D0F19480A47002B3648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2578D2719480A47002B3648 /* AppDelegate.m in Sources */,
+				A2578D2319480A47002B3648 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2578D2A19480A47002B3648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2578D3C19480A47002B3648 /* FaceBook4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2578D3419480A47002B3648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2578D1219480A47002B3648 /* FaceBook4 */;
+			targetProxy = A2578D3319480A47002B3648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2578D1F19480A47002B3648 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2578D2019480A47002B3648 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2578D3819480A47002B3648 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2578D3919480A47002B3648 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2578D3D19480A47002B3648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2578D3E19480A47002B3648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2578D4019480A47002B3648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceBook4/FaceBook4-Prefix.pch";
+				INFOPLIST_FILE = "FaceBook4/FaceBook4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2578D4119480A47002B3648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceBook4/FaceBook4-Prefix.pch";
+				INFOPLIST_FILE = "FaceBook4/FaceBook4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2578D4319480A47002B3648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FaceBook4.app/FaceBook4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceBook4/FaceBook4-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FaceBook4Tests/FaceBook4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A2578D4419480A47002B3648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FaceBook4.app/FaceBook4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceBook4/FaceBook4-Prefix.pch";
+				INFOPLIST_FILE = "FaceBook4Tests/FaceBook4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2578D0E19480A47002B3648 /* Build configuration list for PBXProject "FaceBook4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2578D3D19480A47002B3648 /* Debug */,
+				A2578D3E19480A47002B3648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2578D3F19480A47002B3648 /* Build configuration list for PBXNativeTarget "FaceBook4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2578D4019480A47002B3648 /* Debug */,
+				A2578D4119480A47002B3648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2578D4219480A47002B3648 /* Build configuration list for PBXNativeTarget "FaceBook4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2578D4319480A47002B3648 /* Debug */,
+				A2578D4419480A47002B3648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2578D0B19480A47002B3648 /* Project object */;
+}
