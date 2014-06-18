@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
+#import "PostViewController.h"
+#import "RequestViewController.h"
+#import "MessengerViewController.h"
+#import "NotiViewController.h"
+#import "MoreViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +20,49 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    //Create View Controllers
+    LoginViewController *loginViewController = [[LoginViewController alloc] init];
+    UINavigationController *loginNavigationController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
+    
+    PostViewController *postViewController = [[PostViewController alloc] init];
+    UINavigationController *postNavigationController = [[UINavigationController alloc] initWithRootViewController:postViewController];
+    
+    RequestViewController *requestViewController = [[RequestViewController alloc] init];
+    UINavigationController *requestNavigationController = [[UINavigationController alloc] initWithRootViewController:requestViewController];
+    
+    MessengerViewController *messengerViewController = [[MessengerViewController alloc] init];
+    UINavigationController *messengerNavigationController = [[UINavigationController alloc] initWithRootViewController:messengerViewController];
+    
+    NotiViewController *notiViewController = [[NotiViewController alloc] init];
+    UINavigationController *notiNavigationController = [[UINavigationController alloc] initWithRootViewController:notiViewController];
+    
+    MoreViewController *moreViewController = [[MoreViewController alloc] init];
+    UINavigationController *moreNavigationController = [[UINavigationController alloc] initWithRootViewController:moreViewController];
+    
+    //Configure the Tab Bar Controller
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[postNavigationController, requestNavigationController, messengerNavigationController, notiNavigationController, moreNavigationController];
+    
+    //Configure Tab Bar Titles
+    postNavigationController.tabBarItem.title = @"Feed";
+    postNavigationController.tabBarItem.image = [UIImage imageNamed:@"feed"];
+    
+    requestNavigationController.tabBarItem.title = @"Requests";
+    requestNavigationController.tabBarItem.image = [UIImage imageNamed:@"request"];
+    
+    messengerNavigationController.tabBarItem.title = @"Messenger";
+    messengerNavigationController.tabBarItem.image = [UIImage imageNamed:@"messenger"];
+    
+    notiNavigationController.tabBarItem.title = @"Notifications";
+    notiNavigationController.tabBarItem.image = [UIImage imageNamed:@"noti"];
+    
+    moreNavigationController.tabBarItem.title = @"More";
+    moreNavigationController.tabBarItem.image = [UIImage imageNamed:@"more"];
+    
+    //Set RootViewController
+    self.window.rootViewController = loginViewController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

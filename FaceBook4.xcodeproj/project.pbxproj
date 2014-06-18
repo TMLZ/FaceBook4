@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A241B2DB1950F23500875C13 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A241B2D91950F23500875C13 /* LoginViewController.m */; };
+		A241B2DC1950F23500875C13 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A241B2DA1950F23500875C13 /* LoginViewController.xib */; };
 		A2578D1719480A47002B3648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2578D1619480A47002B3648 /* Foundation.framework */; };
 		A2578D1919480A47002B3648 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2578D1819480A47002B3648 /* CoreGraphics.framework */; };
 		A2578D1B19480A47002B3648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2578D1A19480A47002B3648 /* UIKit.framework */; };
@@ -19,6 +21,16 @@
 		A2578D3219480A47002B3648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2578D1A19480A47002B3648 /* UIKit.framework */; };
 		A2578D3A19480A47002B3648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2578D3819480A47002B3648 /* InfoPlist.strings */; };
 		A2578D3C19480A47002B3648 /* FaceBook4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2578D3B19480A47002B3648 /* FaceBook4Tests.m */; };
+		A2578D4919480AEC002B3648 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2578D4719480AEC002B3648 /* PostViewController.m */; };
+		A2578D4A19480AEC002B3648 /* PostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2578D4819480AEC002B3648 /* PostViewController.xib */; };
+		A2578D4E19481A67002B3648 /* NotiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2578D4C19481A67002B3648 /* NotiViewController.m */; };
+		A2578D4F19481A67002B3648 /* NotiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2578D4D19481A67002B3648 /* NotiViewController.xib */; };
+		A2578D5319481A6F002B3648 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2578D5119481A6F002B3648 /* MoreViewController.m */; };
+		A2578D5419481A6F002B3648 /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2578D5219481A6F002B3648 /* MoreViewController.xib */; };
+		A2578D5819481A75002B3648 /* RequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2578D5619481A75002B3648 /* RequestViewController.m */; };
+		A2578D5919481A75002B3648 /* RequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2578D5719481A75002B3648 /* RequestViewController.xib */; };
+		A2578D5D19481A80002B3648 /* MessengerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2578D5B19481A80002B3648 /* MessengerViewController.m */; };
+		A2578D5E19481A80002B3648 /* MessengerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2578D5C19481A80002B3648 /* MessengerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A241B2D81950F23500875C13 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A241B2D91950F23500875C13 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A241B2DA1950F23500875C13 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		A2578D1319480A47002B3648 /* FaceBook4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBook4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2578D1619480A47002B3648 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A2578D1819480A47002B3648 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +63,21 @@
 		A2578D3719480A47002B3648 /* FaceBook4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceBook4Tests-Info.plist"; sourceTree = "<group>"; };
 		A2578D3919480A47002B3648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2578D3B19480A47002B3648 /* FaceBook4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBook4Tests.m; sourceTree = "<group>"; };
+		A2578D4619480AEC002B3648 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		A2578D4719480AEC002B3648 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		A2578D4819480AEC002B3648 /* PostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostViewController.xib; sourceTree = "<group>"; };
+		A2578D4B19481A67002B3648 /* NotiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotiViewController.h; sourceTree = "<group>"; };
+		A2578D4C19481A67002B3648 /* NotiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotiViewController.m; sourceTree = "<group>"; };
+		A2578D4D19481A67002B3648 /* NotiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotiViewController.xib; sourceTree = "<group>"; };
+		A2578D5019481A6F002B3648 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		A2578D5119481A6F002B3648 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		A2578D5219481A6F002B3648 /* MoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
+		A2578D5519481A75002B3648 /* RequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewController.h; sourceTree = "<group>"; };
+		A2578D5619481A75002B3648 /* RequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewController.m; sourceTree = "<group>"; };
+		A2578D5719481A75002B3648 /* RequestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequestViewController.xib; sourceTree = "<group>"; };
+		A2578D5A19481A80002B3648 /* MessengerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessengerViewController.h; sourceTree = "<group>"; };
+		A2578D5B19481A80002B3648 /* MessengerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessengerViewController.m; sourceTree = "<group>"; };
+		A2578D5C19481A80002B3648 /* MessengerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessengerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +137,7 @@
 		A2578D1C19480A47002B3648 /* FaceBook4 */ = {
 			isa = PBXGroup;
 			children = (
+				A2578D4519480ADE002B3648 /* ViewControllers */,
 				A2578D2519480A47002B3648 /* AppDelegate.h */,
 				A2578D2619480A47002B3648 /* AppDelegate.m */,
 				A2578D2819480A47002B3648 /* Images.xcassets */,
@@ -142,6 +173,31 @@
 				A2578D3819480A47002B3648 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2578D4519480ADE002B3648 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A241B2D81950F23500875C13 /* LoginViewController.h */,
+				A241B2D91950F23500875C13 /* LoginViewController.m */,
+				A241B2DA1950F23500875C13 /* LoginViewController.xib */,
+				A2578D4619480AEC002B3648 /* PostViewController.h */,
+				A2578D4719480AEC002B3648 /* PostViewController.m */,
+				A2578D4819480AEC002B3648 /* PostViewController.xib */,
+				A2578D4B19481A67002B3648 /* NotiViewController.h */,
+				A2578D4C19481A67002B3648 /* NotiViewController.m */,
+				A2578D4D19481A67002B3648 /* NotiViewController.xib */,
+				A2578D5019481A6F002B3648 /* MoreViewController.h */,
+				A2578D5119481A6F002B3648 /* MoreViewController.m */,
+				A2578D5219481A6F002B3648 /* MoreViewController.xib */,
+				A2578D5519481A75002B3648 /* RequestViewController.h */,
+				A2578D5619481A75002B3648 /* RequestViewController.m */,
+				A2578D5719481A75002B3648 /* RequestViewController.xib */,
+				A2578D5A19481A80002B3648 /* MessengerViewController.h */,
+				A2578D5B19481A80002B3648 /* MessengerViewController.m */,
+				A2578D5C19481A80002B3648 /* MessengerViewController.xib */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +275,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A241B2DC1950F23500875C13 /* LoginViewController.xib in Resources */,
+				A2578D5419481A6F002B3648 /* MoreViewController.xib in Resources */,
+				A2578D4F19481A67002B3648 /* NotiViewController.xib in Resources */,
 				A2578D2119480A47002B3648 /* InfoPlist.strings in Resources */,
 				A2578D2919480A47002B3648 /* Images.xcassets in Resources */,
+				A2578D5919481A75002B3648 /* RequestViewController.xib in Resources */,
+				A2578D5E19481A80002B3648 /* MessengerViewController.xib in Resources */,
+				A2578D4A19480AEC002B3648 /* PostViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A241B2DB1950F23500875C13 /* LoginViewController.m in Sources */,
+				A2578D5D19481A80002B3648 /* MessengerViewController.m in Sources */,
+				A2578D4E19481A67002B3648 /* NotiViewController.m in Sources */,
 				A2578D2719480A47002B3648 /* AppDelegate.m in Sources */,
+				A2578D5819481A75002B3648 /* RequestViewController.m in Sources */,
 				A2578D2319480A47002B3648 /* main.m in Sources */,
+				A2578D4919480AEC002B3648 /* PostViewController.m in Sources */,
+				A2578D5319481A6F002B3648 /* MoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +505,7 @@
 				A2578D4119480A47002B3648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2578D4219480A47002B3648 /* Build configuration list for PBXNativeTarget "FaceBook4Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +514,7 @@
 				A2578D4419480A47002B3648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
