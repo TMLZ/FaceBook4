@@ -26,7 +26,7 @@
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
                         <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myFeed" id="k5Y-Ic-jDK">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="1456"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         </imageView>
                     </subviews>

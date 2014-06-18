@@ -42,7 +42,9 @@
     
     [self.imageScrollView setHidden:YES];
     [self.imageScrollView setScrollEnabled:YES];
-    [self.imageScrollView setContentSize:CGSizeMake(320, 800)];
+    
+    
+    [self.imageScrollView setContentSize:CGSizeMake(320, 1456)];
     
     [self performSelector:@selector(showScrollView) withObject:nil afterDelay:2];
     
